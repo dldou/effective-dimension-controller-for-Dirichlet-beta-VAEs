@@ -1,4 +1,4 @@
-# CVPR Beta-Controller Demo
+# Effective-Dimension Control of $\beta$ in Dirichlet $\beta$-VAE for Blind Hyperspectral Unmixing Demo
 
 This repository provides a minimal PyTorch implementation accompanying the paper **Effective-Dimension Control of $\beta$ in Dirichlet $\beta$-VAE for Blind Hyperspectral Unmixing**. The demo implements a Dirichlet $\beta$-VAE in which the KL regularization weight $\beta$ is adapted at the epoch level by a feedback controller to guide the inferred abundance vectors toward a prescribed effective dimension.   
 The effective dimension is defined as the second-order Hill number, $d_2(a) = 1 / \sum_k a_k^2$, and measures the effective number of active endmembers represented in each mixture. Synthetic hyperspectral mixtures are generated from spectra drawn from the USGS spectral library.
